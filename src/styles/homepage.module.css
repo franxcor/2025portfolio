@@ -1,0 +1,41 @@
+.root {
+    position: absolute;  
+    background-image: url('../assets/background.png');
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 0px;
+    background-size: 100%;
+  }
+
+  .welcome {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+
+  .name {
+    position: absolute;
+    scale: 100%;
+    margin-top: 195px;
+    margin-left: 50px;
+    
+  }
+  .enter {
+    position: absolute;
+    scale: .8;
+    margin-top: 420px;
+    margin-left: 6%;
+  }
+  .loveLetter {
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 50px;
+  }
+
+  .button {
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 1110px;
+    scale: .8;
+  }
