@@ -1,7 +1,7 @@
 import { useState } from "react"
 import {Link} from "react-router";
 
-import style from "../styles/homepage.module.css"
+import style from "../styles/aboutpage.module.css"
 import welcome from "../assets/welcome.png"
 import name from "../assets/nameTag.png"
 import enter from "../assets/enterTicket.png"
@@ -9,7 +9,7 @@ import enterShadow from "../assets/enterTicketShadow.png"
 import button from "../assets/button.png"
 import loveLetter from "../assets/loveLetter.png"
 
-function HomePage() {
+function AboutPage() {
     const [isHovering, setIsHovering] = useState(false);
     const handleMouseOut = () => {
         setIsHovering(false);
@@ -41,4 +41,4 @@ function HomePage() {
     )
   }
   
-  export default HomePage
+  export default AboutPage
