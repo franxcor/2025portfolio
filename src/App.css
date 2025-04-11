@@ -1,5 +1,9 @@
 .root {
+<<<<<<< HEAD
   background-image: url('./assets/WelcomePage.png');
+=======
+  background-image: url('./assets/background.png');
+>>>>>>> a4fd532 (add assets)
   height: 100vh;
   width: 100vw;
   padding: 0px;
