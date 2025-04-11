@@ -1,47 +1,87 @@
 .root {
     position: absolute;  
-    background-image: url('../assets/background.png');
+    background-image: url('../assets/aboutBackground.png');
     width: 100%;
     height: 100vh;
     overflow-y: auto;
+    overflow-x: auto;
     padding: 0px;
     background-size: 100%;
-  }
+    display: flex;
+    flex-direction: column;
+}
 
-  .welcome {
-    position: absolute;
-    margin-top: 10px;
-    margin-left: 40px;
-  }
+.rootTop {
+  display: flex;
+  flex-direction: row;
+}
 
-  .name {
-    position: absolute;
-    scale: 100%;
-    margin-top: 195px;
-    margin-left: 50px;
-    
-  }
-  .enter {
-    position: absolute;
-    scale: .8;
-    margin-top: 420px;
-    margin-left: 6%;
-  }
-  .enterShadow {
-    position: absolute;
-    scale: .8;
-    margin-top: 411px;
-    margin-left: 6%;
-  }
-  .loveLetter {
-    position: absolute;
-    margin-left: 850px;
-    margin-top: 50px;
-  }
+.rootBottom {
+  margin-left: 40px;
+  align-items: center;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.rootBottomLeft {
+  display: flex;
+  flex-direction: column;
+}
 
-  .button {
-    position: absolute;
-    margin-top: 320px;
-    margin-left: 1110px;
-    scale: .8;
-  }
+
+
+.title{
+  background-color: #853830;
+  border-radius: 25px;
+  color: #fff9ee;
+  width: 800px;
+  overflow: auto; 
+  height: 300px;
+  text-align: center;
+}
+
+.educationDiv {
+  background-color: #FFefce;
+  height: 200px;
+  border-radius: 25px;
+  width: 500px;
+}
+.education{
+  margin-top: -50px;
+}
+
+.skillsDiv {
+  background-color: #ffefce;
+  height: 200px;
+  border-radius: 25px;
+  margin-top: 50px;
+
+}
+.skills {
+  margin-top: -50px;
+}
+
+.experienceDiv {
+  background-color: #ffefce;
+  height: 200px;
+  border-radius: 25px;
+  align-items:flex-end;
+  width: 890px;
+  margin-left: 20px;
+  justify-content: right;
+}
+.experience {
+  margin-top: -50px;
+}
+
+.header {
+  background-color: none;
+  display: flex;
+  flex-direction: row;
+  overflow: none;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.resLink {
+  margin-left: 1200px;
+}
