@@ -9,20 +9,29 @@
     background-size: 100%;
     
 }
+
 .header {
   width: 100%;
-  height: 40px;
-
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
 }
 
 .headList {
-  list-style:none;
+  list-style: none;
+  display: flex;
+  gap: 80px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
 }
 
 .listItem {
-  display: inline-flex;
-  margin-right: 80px;
+  display: flex;
+  align-items: center;
 }
+
 .mainContent {
   align-items: center;
   display: flex;

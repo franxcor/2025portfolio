@@ -21,7 +21,7 @@ function AboutPage() {
           <div className={style["header"]}>
             <ul className={style["headList"]}>
               <li className={style["listItem"]}><img src={fxc} className={style["fxc"]} style={{ marginRight: '80%' }} /> </li>
-              <li className={style["listItem"]}><img src={home} className={style["home"]} /></li>
+              <li className={style["listItem"]}><Link to="/"><img src={home} className={style["home"]} /></Link></li>
               
               <li className={style["listItem"]}>
                 <Link to="/Resume">
