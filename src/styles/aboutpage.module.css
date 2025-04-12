@@ -7,9 +7,49 @@
     overflow-x: auto;
     padding: 0px;
     background-size: 100%;
-    display: flex;
-    flex-direction: column;
+    
 }
+.header {
+  width: 100%;
+  height: 40px;
+
+}
+
+.headList {
+  list-style:none;
+}
+
+.listItem {
+  display: inline-flex;
+  margin-right: 80px;
+}
+.mainContent {
+  align-items: center;
+  display: flex;
+
+}
+.photo {
+  margin-top: 30px;
+}
+
+.education {
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.skills {
+  margin-left: 20px;
+  margin-bottom: 90px;
+}
+
+.experience {
+  margin-left: 40px;
+  margin-top: -200px;
+  margin-bottom: 40px;
+}
+
+
+/*
 
 .rootTop {
   display: flex;
@@ -85,3 +125,4 @@
 .resLink {
   margin-left: 1200px;
 }
+  */
