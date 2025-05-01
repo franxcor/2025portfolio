@@ -1,0 +1,14 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    button:disabled {
+        cursor: not-allowed;
+        background-color: var(--button-hver-background-color);
+        color: var(--button-hover-text-color);
+    }
+    button {
+        margin: .5rem;
+    }
+}

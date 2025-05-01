@@ -1,0 +1,41 @@
+.links {
+    &.darkMode {
+        color: white;
+    }
+    color: black;
+    font-size: 16px;
+    margin-left: 40px;
+    
+}
+.navBarDiv {
+    &.darkMode {
+        background-color: #4c2a4c;
+
+    }
+    background-color: lightpink;
+    width: 2000px;
+    padding: 25px;
+    margin-left: -30px;
+    
+}
+button {
+    &.darkMode{
+        background-color: #795b7a;
+    } 
+    background-color: papayawhip;
+    font-size: 12px;
+    margin-left: 40px;
+    border: 0px;
+    padding: 10px;
+}
+.list {
+    list-style: none;
+    display: flex;
+    color: white;
+    padding-left: 30px;
+}
+.listItem {
+    font-size: 14pt;
+    color: white;
+    margin-left: 15px;
+}

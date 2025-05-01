@@ -1,0 +1,38 @@
+.background {
+    max-width: 2000px;
+    background-color: papayawhip;
+    &.darkMode {
+        background-color: #795b7a;
+    }
+}
+
+.container {
+    &.darkMode {
+        background-color: #4c2a4c;
+        color: white;
+    }
+    background-color: lightpink;
+    border-radius: 25px;
+    max-width: 400px;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+}
+.biography {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    width: 200px;
+    padding: 2px;
+    margin-top: 5px;
+}
+.submit {
+    width: 80px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: black;
+    &.disabled{
+        background-color: var(--button-hover-background-color);
+        color: var(--button-hover-text-color);
+        cursor:not-allowed;
+    }
+}
