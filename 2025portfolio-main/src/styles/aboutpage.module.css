@@ -41,20 +41,25 @@
   margin-top: 30px;
 }
 
-.education {
-  margin-left: 20px;
-  margin-top: 40px;
+
+.aboutColumns {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Vertically align items */
+  margin-left: 80px;
+  gap: 40px; /* Adjust spacing between columns */
 }
 
-.skills {
-  margin-left: 20px;
-  margin-bottom: 90px;
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between education and experience */
 }
 
-.experience {
-  margin-left: 40px;
-  margin-top: -200px;
-  margin-bottom: 40px;
+.right-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 

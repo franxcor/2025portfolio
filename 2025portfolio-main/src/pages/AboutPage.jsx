@@ -46,9 +46,15 @@ function AboutPage() {
           <img src={bio} className={style["bio"]} />
           </div>
           
-          <img src={education} className={style["education"]}/>
-          <img src={skills} className={style["skills"]}/>
-          <img src={experience} className={style["experience"]}/>
+          <div className={style["aboutColumns"]}>
+            <div className={style["left-column"]}>
+              <img src={education} className={style["education"]} />
+              <img src={experience} className={style["experience"]} />
+            </div>
+            <div className={style["right-column"]}>
+              <img src={skills} className={style["skills"]} />
+            </div>
+          </div>
 
           {/*
           <div className={style["header"]}>
